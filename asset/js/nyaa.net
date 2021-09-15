@@ -1,0 +1,2412 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="keywords" content="nyaa, torrents, pantsu, anime, manga, sukebei, nyaapassu, horriblesubs, dlsite"/>
+  <meta name="description" content='The leading open-source community-based nyaa.se successor, suitable for all anime and manga needs. にゃんぱす~!'/>
+<meta name="juicyads-site-verification" content="c8c998b00c1e48cf0d7e369afe638471">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Nyaa Pantsu - Home</title>
+  <!-- Flavicons and icons -->
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+
+  <!-- SMO -->
+  <meta property="og:site_name" content="Nyaa Pantsu"/>
+  <meta property="og:title" content=" - Home - Nyaa Pantsu"/>
+  <meta property="og:image" content="/img/favicon.png"/>
+  <meta property="og:description" content="Nyaa Pantsu Homepage"/>
+
+  <!-- RSS Feed with Context -->
+  <link rel="alternate" type="application/rss+xml" title="Nyaa Pantsu - Latest torrents RSS Feed" href="/feed?"  />
+  <link rel="alternate" type="application/rss+xml" title="Nyaa Pantsu - Latest torrents Torznab RSS Feed" href="/feed/torznab?&t=search"  />
+  <link rel="alternate" type="application/rss+xml" title="Nyaa Pantsu - Latest torrents EZTV RSS Feed" href="/feed/eztv?"  />
+  <!-- do NOT move -->
+  <link rel="stylesheet" href="/css/simplemde.min.css?v=1.1.0"/>
+  <!-- Base theme -->
+  <link rel="stylesheet" id="style" href="/css/main.css?v=1.1.0"/>
+  <!-- nyaacon, custom icon set -->
+  <link rel="stylesheet" href="/css/nyacon.css?v=1.1.0"/>
+  <!-- User selected theme, if empty defaults to theme in nyaa.yml -->
+  <link rel="stylesheet" id="theme" href="/css/themes/g.css?v=1.1.0"/>
+  <!-- Flags css -->
+  <link rel="stylesheet" href="/css/flags/flags.min.css"/>
+  <!-- Search Box for Google -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://nyaa.net/","potentialAction":{"@type":"SearchAction","target":"https://nyaa.net/search?q={search_term_string}","query-input":"required name=search_term_string"} }</script>
+
+  <script data-cfasync="false" type="text/javascript">(function(s,o,l,v,e,d){if(s[o]==null&&s[l+e]){s[o]="loading";s[l+e](d,l=function(){s[o]="complete";s[v+e](d,l,!1)},!1)}})(document,"readyState","add","remove","EventListener","DOMContentLoaded");(function(){var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="//cdn.engine.4dsply.com/Scripts/infinity.js.aspx?guid=9d881103-9751-4fe5-8a78-49d84256e9f7";s.id="infinity";s.setAttribute("data-guid","9d881103-9751-4fe5-8a78-49d84256e9f7");s.setAttribute("data-version","async");var e=document.getElementsByTagName('script')[0];e.parentNode.insertBefore(s,e)})();</script>
+
+  
+  </head>
+
+<body >
+  <nav id="header" class="header">
+    
+
+<div class="container">
+  <div class="h-left">
+    <div class="h-logo">
+      <a href="/">
+        <img class="hide-md" src="/img/logo.png" alt="Nyaa Pantsu"/>
+        <img class="visible-md" src="/img/logo_s.png" alt="Nyaa Pantsu"/>
+      </a>
+    </div>
+    <div class="h-nav">
+      <a href="/" class="nav-btn" id="browse-link" style="display: none;">
+        <div class="icon-upload visible-md"></div>
+        <span class="hide-md">Browse</span>
+      </a>
+      <a href="/upload" class="nav-btn">
+        <div class="icon-upload visible-md"></div>
+        <span class="hide-md">Upload</span>
+      </a>
+      <a href="/feed?" class="nav-btn">
+        <div class="icon-rss-squared visible-md"></div>
+        <span class="hide-md">RSS</span>
+      </a>
+      <a href="/faq" class="nav-btn">
+        <div class="icon-help-circled visible-md"></div>
+        <span class="hide-md">FAQ</span>
+      </a>
+      
+      <a href="https://sukebei.nyaa.net" class="nav-btn">
+        <div class="icon-heart visible-md"></div>
+        <span class="hide-md">Fap</span>
+      </a>
+      
+    </div>
+  </div>
+  <div class="h-right">
+    
+<div class="h-user ">
+  
+  <a href="/login?redirectTo=/" class="nav-btn log-in" style="width:auto;" title="Sign In">
+    <div class="icon-user"></div>
+    <span>Sign In</span>
+  </a> 
+</div>
+
+
+    <div class="h-search">
+      <form role="search" action="/search" id="header-form" method="get">
+        
+<select name="c" class="form-input form-category">
+  <option value="_">All categories</option>
+  
+  <option value="3_" >Anime</option>
+  
+  <option value="3_12" >Anime - Anime Music Video</option>
+  
+  <option value="3_5" >Anime - English-translated</option>
+  
+  <option value="3_13" >Anime - Non-English-translated</option>
+  
+  <option value="3_6" >Anime - Raw</option>
+  
+  <option value="2_" >Audio</option>
+  
+  <option value="2_3" >Audio - Lossless</option>
+  
+  <option value="2_4" >Audio - Lossy</option>
+  
+  <option value="4_" >Literature</option>
+  
+  <option value="4_7" >Literature - English-translated</option>
+  
+  <option value="4_14" >Literature - Non-English-translated</option>
+  
+  <option value="4_8" >Literature - Raw</option>
+  
+  <option value="5_" >Live Action</option>
+  
+  <option value="5_9" >Live Action - English-translated</option>
+  
+  <option value="5_10" >Live Action - Idol/Promotional Video</option>
+  
+  <option value="5_18" >Live Action - Non-English-translated</option>
+  
+  <option value="5_11" >Live Action - Raw</option>
+  
+  <option value="6_" >Pictures</option>
+  
+  <option value="6_15" >Pictures - Graphics</option>
+  
+  <option value="6_16" >Pictures - Photos</option>
+  
+  <option value="1_" >Software</option>
+  
+  <option value="1_1" >Software - Applications</option>
+  
+  <option value="1_2" >Software - Games</option>
+  
+</select>
+ 
+<input class="form-input search-box" name="q" placeholder="Search" type="text" value="*"/>
+<button type="submit" class="form-input icon-search"></button><button type="submit" class="form-input refine" name="refine" value="1">Refine</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  </nav>
+  <div id="header-height-offset"></div>
+  <div id="content" class="">
+    <div class="content container center">
+      
+    
+
+      
+    
+
+      
+<div class="centered">                            
+
+<!--
+<iframe width="728" height="90" scrolling="no" frameborder="0" src="https://a.adtng.com/get/10011773?time=1600111520608" allowtransparency="true" marginheight="0" marginwidth="0" name="spot_id_10011773"></iframe>
+-->
+ </div>
+      
+    
+
+<div class="box refine" style="display: none;">
+  <form method="GET" action="/search">
+    <h3>Refine your search</h3>
+	<div>
+	  <div class="refine-container-1">
+    <span class="form-refine">
+      <span class="spacing">Search for:</span>
+      <input type="text" class="form-input refine-searchbox" size="30" name="q" value="*" placeholder="Search for"/><select name="c" class="form-input refine-category">
+      <option value="_">All categories</option>
+      
+      <option value="3_" >Anime</option>
+      
+      <option value="3_12" >Anime - Anime Music Video</option>
+      
+      <option value="3_5" >Anime - English-translated</option>
+      
+      <option value="3_13" >Anime - Non-English-translated</option>
+      
+      <option value="3_6" >Anime - Raw</option>
+      
+      <option value="2_" >Audio</option>
+      
+      <option value="2_3" >Audio - Lossless</option>
+      
+      <option value="2_4" >Audio - Lossy</option>
+      
+      <option value="4_" >Literature</option>
+      
+      <option value="4_7" >Literature - English-translated</option>
+      
+      <option value="4_14" >Literature - Non-English-translated</option>
+      
+      <option value="4_8" >Literature - Raw</option>
+      
+      <option value="5_" >Live Action</option>
+      
+      <option value="5_9" >Live Action - English-translated</option>
+      
+      <option value="5_10" >Live Action - Idol/Promotional Video</option>
+      
+      <option value="5_18" >Live Action - Non-English-translated</option>
+      
+      <option value="5_11" >Live Action - Raw</option>
+      
+      <option value="6_" >Pictures</option>
+      
+      <option value="6_15" >Pictures - Graphics</option>
+      
+      <option value="6_16" >Pictures - Photos</option>
+      
+      <option value="1_" >Software</option>
+      
+      <option value="1_1" >Software - Applications</option>
+      
+      <option value="1_2" >Software - Games</option>
+      
+    </select>
+  </span>
+  <span class="form-refine">
+    <span class="spacing">Show:</span>
+    <select name="s" class="form-input spacing" style="max-width: 21%;min-width: 100px;">
+      <option value="0">Show all</option>
+      <option value="2" >Filter Remakes</option>
+      <option value="3" >Torrents uploaded by trusted users.</option>
+      <option value="4" >A+</option>
+    </select>
+    Limit: <input type="number" name="limit" value="50" class="form-input spacing" min="1" max="500"/>
+    From: <input type="text" name="user" placeholder="Username/#ID" value="" class="form-input refine-user"/>
+  </span>
+  <span class="form-refine">
+    <span class="spacing">Between</span>
+    <input class="form-input" size="7" name="minSize" type="text" value=""/>
+    and
+    <input size="7" class="form-input" name="maxSize" type="text" value=""/>
+    <select name="sizeType" class="form-input">
+      <option value="b" >B</option>
+      <option value="k" >KiB</option>
+      <option value="m"  selected>MiB</option>
+      <option value="g" >GiB</option>
+    </select>
+    large.
+  </span>
+  <span class="form-refine">
+    <span class="spacing">From</span>
+    <input class="form-input refine-date" name="fromDate" type="text" value="" placeholder="YYYY/MM/DD"/>
+    to
+    <input class="form-input refine-date spacing" size="7" name="toDate" type="text" value="" placeholder="YYYY/MM/DD"/>
+    </span>
+	<span class="form-refine" style="margin-bottom: 2px;">
+		<span class="spacing">Sort by</span>
+		<select name="sort" class="form-input">
+			<option value="1" >Name</option>
+			<option value="4" >Size</option>
+			<option value="5" >Seeders</option>
+			<option value="6" >Leechers</option>
+			<option value="7" >Completed</option>
+			<option value="2" selected>Date</option>
+		</select>
+		<select name="order" class="form-input">
+			<option value="true">Ascending</option>
+			<option value="false" selected>Descending</option>
+		</select>
+    Exclude: <input type="text" name="nuserID" placeholder="UserID" value="" class="form-input refine-userid" style="width: 62px;">
+	</span>
+    </div>
+	  <div class="refine-container-2">
+		  <span class="form-refine">
+			<span class="spacing">Quality:</span>
+			<select name="vq" class="form-input">
+			  <option value="">Show all</option>
+			  
+			  <option value="bluray">Bluray</option>
+			  
+			  <option value="full_hd">1080p</option>
+			  
+			  <option value="hd">720p</option>
+			  
+			  <option value="sd">480p</option>
+			  
+			</select>
+			<span style="margin: 0 5px;">Hash:</span>
+			<input type="text" name="hash" placeholder="Torrent hash" class="form-input">
+		  </span>
+		  <span class="form-refine">
+			<span class="spacing">Tags:</span>
+			  <input type="text" name="anidb" placeholder="AniDB" title="AniDB" value="" class="form-input"/>
+			  <input type="text" name="vgm" placeholder="VGMdb" title="VGMdb" value="" class="form-input"/>
+			  <input type="text" name="vndb" placeholder="VnDB" title="VnDB" value="" class="form-input"/>
+			  <input type="text" name="dlsite" placeholder="DLsite" title="DLsite" value="" class="form-input"/>
+		  </span>
+		  <div class="form-refine form-input language">
+			
+
+<span class="input-group">
+<span class="refine-search-languagename">Catalan</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-ca" value="ca"><label for="refine-search-ca" class="flag flag-ca" title="Catalan"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">German</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-de" value="de"><label for="refine-search-de" class="flag flag-de" title="German"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">English</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-en" value="en"><label for="refine-search-en" class="flag flag-en" title="English"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Spanish, Mexican Spanish</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-es" value="es"><label for="refine-search-es" class="flag flag-es" title="Spanish, Mexican Spanish"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">French</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-fr" value="fr"><label for="refine-search-fr" class="flag flag-fr" title="French"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Hungarian</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-hu" value="hu"><label for="refine-search-hu" class="flag flag-hu" title="Hungarian"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Indonesian</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-id" value="id"><label for="refine-search-id" class="flag flag-id" title="Indonesian"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Icelandic</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-is" value="is"><label for="refine-search-is" class="flag flag-is" title="Icelandic"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Italian</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-it" value="it"><label for="refine-search-it" class="flag flag-it" title="Italian"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Japanese</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-ja" value="ja"><label for="refine-search-ja" class="flag flag-ja" title="Japanese"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Korean</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-ko" value="ko"><label for="refine-search-ko" class="flag flag-ko" title="Korean"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Norwegian Bokmål</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-nb" value="nb"><label for="refine-search-nb" class="flag flag-nb" title="Norwegian Bokmål"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Dutch</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-nl" value="nl"><label for="refine-search-nl" class="flag flag-nl" title="Dutch"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Portuguese</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-pt" value="pt"><label for="refine-search-pt" class="flag flag-pt" title="Portuguese"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Romanian</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-ro" value="ro"><label for="refine-search-ro" class="flag flag-ro" title="Romanian"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Russian</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-ru" value="ru"><label for="refine-search-ru" class="flag flag-ru" title="Russian"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Swedish</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-sv" value="sv"><label for="refine-search-sv" class="flag flag-sv" title="Swedish"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Thai</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-th" value="th"><label for="refine-search-th" class="flag flag-th" title="Thai"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Chinese</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-zh" value="zh"><label for="refine-search-zh" class="flag flag-zh" title="Chinese"></label>
+</span><span class="input-group">
+<span class="refine-search-languagename">Traditional Chinese</span>
+<input type="checkbox" name="lang" class="form-language-checkbox" id="refine-search-zh-Hant" value="zh-Hant"><label for="refine-search-zh-Hant" class="flag flag-Hant" title="Traditional Chinese"></label>
+</span>
+
+
+		  </div>
+		  <button type="submit" class="form-input refine-btn" name="refine" value="1">Refine</button>
+	  </div>
+	</div>
+</form>
+</div>
+
+
+
+  <div class="box refine website-nav">
+<table id="nav-category-list">
+	<tbody>
+		<tr><td colspan="3"><b>All categories</b></td></tr>
+		<tr>
+		
+			<td><a href="/search?c=3_">Anime</a></td>
+			
+			
+		
+			<td><a href="/search?c=2_">Audio</a></td>
+			
+			
+		
+			<td><a href="/search?c=4_">Literature</a></td>
+			
+			</tr>
+			<tr>
+			
+			
+		
+			<td><a href="/search?c=5_">Live Action</a></td>
+			
+			
+		
+			<td><a href="/search?c=6_">Pictures</a></td>
+			
+			
+		
+			<td><a href="/search?c=1_">Software</a></td>
+			
+			
+			
+			</tr>
+		
+	</tbody>
+</table>
+
+<table id="sort-list-order">
+	<tbody>
+		<tr>
+			<td>
+				<b>Date</b> / 
+				<a href="/search?order=false&amp;sort=5">Seeders</a> / 
+				<a href="/search?order=false&amp;sort=6">Leechers</a> / 
+				<a href="/search?order=false&amp;sort=7">Completed</a>  / 
+				<a href="/search?order=false&amp;sort=4">Size</a>  / 
+				<a href="/search?order=false&amp;sort=1">Name</a>  
+			</td>
+			<td style="padding: 0 0.35em!important;"> | </td>
+			<td>
+				<b>Ascending</b> / 
+				<a href="/search?order=true&amp;sort=2">Descending</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+    
+    <div class="pagination">
+      <a class="page-prev" style="display:none;" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a><a aria-label="Page 1" href="/search/1?"><span class="active">1</span></a><a aria-label="Page 2" href="/search/2?"><span>2</span></a><a aria-label="Page 3" href="/search/3?"><span>3</span></a><a aria-label="Page 4" href="/search/4?"><span>4</span></a><a aria-label="Page 5" href="/search/5?"><span>5</span></a><a aria-label="Page 6" href="/search/6?"><span>6</span></a><a aria-label="Page 7" href="/search/7?"><span>7</span></a><a aria-label="Page 8" href="/search/8?"><span>8</span></a><a aria-label="Page 9" href="/search/9?"><span>9</span></a><a aria-label="Page 10" href="/search/10?"><span>10</span></a><a aria-label="Page 11" href="/search/11?"><span>11</span></a><a aria-label="Page 12" href="/search/12?"><span>12</span></a><a aria-label="Page 13" href="/search/13?"><span>13</span></a><a aria-label="Page 14" href="/search/14?"><span>14</span></a><a aria-label="Page 15" href="/search/15?"><span>15</span></a><a aria-label="Page 16" href="/search/16?"><span>16</span></a><a aria-label="Page 17" href="/search/17?"><span>17</span></a><a aria-label="Page 18" href="/search/18?"><span>18</span></a><a aria-label="Page 19" href="/search/19?"><span>19</span></a><a aria-label="Page 20" href="/search/20?"><span>20</span></a><a aria-label="Page 21" href="/search/21?"><span>21</span></a><a aria-label="Page 22" href="/search/22?"><span>22</span></a><a aria-label="Page 23" href="/search/23?"><span>23</span></a><a aria-label="Page 24" href="/search/24?"><span>24</span></a><a aria-label="Page 25" href="/search/25?"><span>25</span></a><a aria-label="Page 26" href="/search/26?"><span>26</span></a><a aria-label="Page 27" href="/search/27?"><span>27</span></a><a aria-label="Page 28" href="/search/28?"><span>28</span></a><a aria-label="Page 29" href="/search/29?"><span>29</span></a><a aria-label="Page 30" href="/search/30?"><span>30</span></a><a aria-label="Page 31" href="/search/31?"><span>31</span></a><a aria-label="Page 32" href="/search/32?"><span>32</span></a><a aria-label="Page 33" href="/search/33?"><span>33</span></a><a class="page-next" href="/search/17712?" aria-label="Next"><span aria-hidden="true">&raquo;</span></a><p>1-50/885568</p>
+    </div>
+</div>
+
+
+<!-- Contain the table within a grid, as for better sizing  -->
+<div class="results box old-nav" >
+  <table>
+    <thead class="torrent-info">
+      <tr>
+        
+        <th class="tr-cat">Category</th>
+        <th class="tr-name">
+          <a href="/search?order=false&amp;sort=1">
+            Name
+            <span class="sort-arrows"><span class="sortarrowleft sortarrowdim">▼</span><span class="sortarrowdim">▲</span></span>
+          </a>
+        </th>
+        <th class="tr-cs" style="font-size: 0px;">Msg</th>
+        <th class="tr-links"></th>
+        <th class="tr-size hide-xs"><a href="/search?order=false&amp;sort=4">Size<span class="sort-arrows"><span class="sortarrowleft sortarrowdim">▼</span><span class="sortarrowdim">▲</span></span></a></th>
+
+        <th class="tr-se hide-smol">
+          <a href="/search?order=false&amp;sort=5">
+            S
+            <span class="sort-arrows"><span class="sortarrowleft sortarrowdim">▼</span><span class="sortarrowdim">▲</span></span>
+          </a>
+        </th>
+        <th class="tr-le hide-smol">
+          <a href="/search?order=false&amp;sort=6">
+            L
+            <span class="sort-arrows"><span class="sortarrowleft sortarrowdim">▼</span><span class="sortarrowdim">▲</span></span>
+          </a>
+        </th>
+        <th class="tr-dl hide-xs">
+          <a href="/search?order=false&amp;sort=7">
+            D
+            <span class="sort-arrows"><span class="sortarrowleft sortarrowdim">▼</span><span class="sortarrowdim">▲</span></span>
+          </a>
+        </th>
+        <!-- <th><span class="glyphicon glyphicon-comment"></span></th> -->
+        <th class="tr-date hide-xs"><a href="/search?order=true&amp;sort=2">
+          Date
+          <span class="sort-arrows"><span class="sortarrowleft ">▼</span><span class="sortarrowdim">▲</span></span>
+        </a>
+      </th>
+    </tr>
+  </thead>
+  <tbody id="torrentListResults" class="alt-colors">
+    
+    <tr id="torrent_1047850" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-9">
+          <a href="/search?c=5_9" title="Live Action - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047850">
+            [DBD-Raws][4K_HDR][黑寡妇/Black Widow][2160P][BDRip][HEVC-10bit][中英外挂][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:c804a7c909ed028a7ddb41efdbb4a6449a8fbc78&amp;dn=%5BDBD-Raws%5D%5B4K_HDR%5D%5B%E9%BB%91%E5%AF%A1%E5%A6%87%2FBlack+Widow%5D%5B2160P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5B%E4%B8%AD%E8%8B%B1%E5%A4%96%E6%8C%82%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/c804a7c909ed028a7ddb41efdbb4a6449a8fbc78.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          5.5 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">3</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/15/2021, 5:45:39 AM UTC+0">Sep 15, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047849" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-9">
+          <a href="/search?c=5_9" title="Live Action - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047849">
+            [DBD-Raws][黑寡妇/Black Widow][1080P][BDRip][HEVC-10bit][中英外挂][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:66611b44f2eb2f8d94d010a6459eb2f3f00aa9ff&amp;dn=%5BDBD-Raws%5D%5B%E9%BB%91%E5%AF%A1%E5%A6%87%2FBlack+Widow%5D%5B1080P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5B%E4%B8%AD%E8%8B%B1%E5%A4%96%E6%8C%82%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/66611b44f2eb2f8d94d010a6459eb2f3f00aa9ff.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          4.1 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/15/2021, 5:41:58 AM UTC+0">Sep 15, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047848" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047848">
+            衛府の七忍 第01-09巻 [Efu no Shichinin vol 01-09]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:5301baabff1c1adf12ae833f0545dd40cbac2f7b&amp;dn=%E8%A1%9B%E5%BA%9C%E3%81%AE%E4%B8%83%E5%BF%8D+%E7%AC%AC01-09%E5%B7%BB+%5BEfu+no+Shichinin+vol+01-09%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/5301baabff1c1adf12ae833f0545dd40cbac2f7b.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1.7 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">114</td>
+        <td class="tr-le home-td hide-smol">84</td>
+        <td class="tr-dl home-td hide-xs">187</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/15/2021, 4:31:07 AM UTC+0">Sep 15, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047847" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047847">
+            エデンの王【特装版】 第01-06巻
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:043198f135cc21baa9fa2c4c21854bb956aef392&amp;dn=%E3%82%A8%E3%83%87%E3%83%B3%E3%81%AE%E7%8E%8B%E3%80%90%E7%89%B9%E8%A3%85%E7%89%88%E3%80%91+%E7%AC%AC01-06%E5%B7%BB&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/043198f135cc21baa9fa2c4c21854bb956aef392.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          570.7 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/15/2021, 1:50:55 AM UTC+0">Sep 15, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047846" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-13">
+          <a href="/search?c=3_13" title="Anime - Non-English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047846">
+            [DA-Subs] Slayers [BRrip 960x720 x264 AAC] [SUB PL]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:2a92dda79000320c3f0efaf5bea9016293884c6e&amp;dn=%5BDA-Subs%5D+Slayers+%5BBRrip+960x720+x264+AAC%5D+%5BSUB+PL%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/2a92dda79000320c3f0efaf5bea9016293884c6e.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          9.5 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">4</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">4</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 11:44:30 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047845" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047845">
+            [SSA] Tensei shitara Slime Datta Ken - 47 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:4aaece2c06a8c777afcf5ba7984a0daf6f2efe88&amp;dn=%5BSSA%5D+Tensei+shitara+Slime+Datta+Ken+-+47+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/4aaece2c06a8c777afcf5ba7984a0daf6f2efe88.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          97.8 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">10</td>
+        <td class="tr-le home-td hide-smol">20</td>
+        <td class="tr-dl home-td hide-xs">16</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:26:17 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047844" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047844">
+            [SSA] Tensei shitara Slime Datta Ken - 47 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:5c4acf0d40844a8cf5a260d82f7272a1f4eb3a27&amp;dn=%5BSSA%5D+Tensei+shitara+Slime+Datta+Ken+-+47+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/5c4acf0d40844a8cf5a260d82f7272a1f4eb3a27.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          160.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">39</td>
+        <td class="tr-le home-td hide-smol">53</td>
+        <td class="tr-dl home-td hide-xs">53</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 5:56:29 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047842" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047842">
+            [SSA] Tensei shitara Slime Datta Ken - 47 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:4b022d16fe9ad596a4f339c1858d9d59f47250d5&amp;dn=%5BSSA%5D+Tensei+shitara+Slime+Datta+Ken+-+47+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/4b022d16fe9ad596a4f339c1858d9d59f47250d5.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          279.3 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">55</td>
+        <td class="tr-le home-td hide-smol">59</td>
+        <td class="tr-dl home-td hide-xs">70</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 5:16:23 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047838" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-3">
+          <a href="/search?c=2_3" title="Audio - Lossless" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047838">
+            [FLAC] K-pop kpop 2021
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:97c72181b2cf718f54ed68578277af7ecffeb480&amp;dn=%5BFLAC%5D+K-pop+kpop+2021&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/97c72181b2cf718f54ed68578277af7ecffeb480.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          36.3 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">-</td>
+        <td class="tr-le home-td hide-smol">-</td>
+        <td class="tr-dl home-td hide-xs">-</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 3:36:20 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047836" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047836">
+            ダーウィンズゲーム 第01-24巻 [Darwin’s Game vol 01-24]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:5cf099192ef28680227d8ee437e00ae4e5d2f6d7&amp;dn=%E3%83%80%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%BA%E3%82%B2%E3%83%BC%E3%83%A0+%E7%AC%AC01-24%E5%B7%BB+%5BDarwin%E2%80%99s+Game+vol+01-24%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/5cf099192ef28680227d8ee437e00ae4e5d2f6d7.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          4.2 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">1</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 3:25:54 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047833" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047833">
+            あつまれ！ふしぎ研究部 第01-12巻 [Atsumare!Fushigi Kenkyubu vol 01-12]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:2b5b351d2c07b42bf2343fe32e102e141b00e687&amp;dn=%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%EF%BC%81%E3%81%B5%E3%81%97%E3%81%8E%E7%A0%94%E7%A9%B6%E9%83%A8+%E7%AC%AC01-12%E5%B7%BB+%5BAtsumare%21Fushigi+Kenkyubu+vol+01-12%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/2b5b351d2c07b42bf2343fe32e102e141b00e687.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1.1 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 0:57:27 PM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047826" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047826">
+            事件屋稼業 第01-06巻 [Shin Jiken’ya Kagyo vol 01-06]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:174334993DEDD7586787218B30DB723FADE76C0B&amp;dn=%E4%BA%8B%E4%BB%B6%E5%B1%8B%E7%A8%BC%E6%A5%AD+%E7%AC%AC01-06%E5%B7%BB+%5BShin+Jiken%E2%80%99ya+Kagyo+vol+01-06%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/174334993DEDD7586787218B30DB723FADE76C0B.torrent" title="Torrent file" class="hidden">
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          Unknown
+        </td>
+        
+        <td class="tr-se home-td hide-smol">278</td>
+        <td class="tr-le home-td hide-smol">56</td>
+        <td class="tr-dl home-td hide-xs">2853</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 9:29:09 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047822" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-9">
+          <a href="/search?c=5_9" title="Live Action - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047822">
+            [DBD-Raws][4K_HDR][魔兽/Warcraft][2160P][BDRip][HEVC-10bit][中英外挂][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:6290b05ecb39abb35e8451f92a6ab4d4facf2451&amp;dn=%5BDBD-Raws%5D%5B4K_HDR%5D%5B%E9%AD%94%E5%85%BD%2FWarcraft%5D%5B2160P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5B%E4%B8%AD%E8%8B%B1%E5%A4%96%E6%8C%82%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/6290b05ecb39abb35e8451f92a6ab4d4facf2451.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          6.6 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 8:01:48 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047821" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047821">
+            VENX-035 偷看巨乳岳母換衣服趁她睡著偷插內射幹成炮友 (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:48aadc4fcbaf0b22b5d3cac8c87913d7823d6020&amp;dn=VENX-035+%E5%81%B7%E7%9C%8B%E5%B7%A8%E4%B9%B3%E5%B2%B3%E6%AF%8D%E6%8F%9B%E8%A1%A3%E6%9C%8D%E8%B6%81%E5%A5%B9%E7%9D%A1%E8%91%97%E5%81%B7%E6%8F%92%E5%85%A7%E5%B0%84%E5%B9%B9%E6%88%90%E7%82%AE%E5%8F%8B+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/48aadc4fcbaf0b22b5d3cac8c87913d7823d6020.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          952.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">82</td>
+        <td class="tr-le home-td hide-smol">273</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 8:01:04 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047820" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047820">
+            MVSD-463 好友姐姐無罩巨乳走光誘棒狂插內射爽上癮還... (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:96b8271201e812c1403797e3f23eeabc37cc38ad&amp;dn=MVSD-463+%E5%A5%BD%E5%8F%8B%E5%A7%90%E5%A7%90%E7%84%A1%E7%BD%A9%E5%B7%A8%E4%B9%B3%E8%B5%B0%E5%85%89%E8%AA%98%E6%A3%92%E7%8B%82%E6%8F%92%E5%85%A7%E5%B0%84%E7%88%BD%E4%B8%8A%E7%99%AE%E9%82%84...+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/96b8271201e812c1403797e3f23eeabc37cc38ad.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1007.0 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">4</td>
+        <td class="tr-le home-td hide-smol">7</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 7:59:13 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047819" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-9">
+          <a href="/search?c=5_9" title="Live Action - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047819">
+            [DBD-Raws][魔兽/Warcraft][1080P][BDRip][HEVC-10bit][中英外挂][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:1654840e938decf95f0f67b547fdd2b59febc577&amp;dn=%5BDBD-Raws%5D%5B%E9%AD%94%E5%85%BD%2FWarcraft%5D%5B1080P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5B%E4%B8%AD%E8%8B%B1%E5%A4%96%E6%8C%82%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/1654840e938decf95f0f67b547fdd2b59febc577.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          4.9 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">3</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 7:55:13 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047818" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047818">
+            STARS-383 黑絲巨乳女律師被催眠強插幹上癮還要她... (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:31b5791dc3741621627e9cefdf26b0d07a231534&amp;dn=STARS-383+%E9%BB%91%E7%B5%B2%E5%B7%A8%E4%B9%B3%E5%A5%B3%E5%BE%8B%E5%B8%AB%E8%A2%AB%E5%82%AC%E7%9C%A0%E5%BC%B7%E6%8F%92%E5%B9%B9%E4%B8%8A%E7%99%AE%E9%82%84%E8%A6%81%E5%A5%B9...+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/31b5791dc3741621627e9cefdf26b0d07a231534.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1.1 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">25</td>
+        <td class="tr-le home-td hide-smol">156</td>
+        <td class="tr-dl home-td hide-xs">2</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 7:01:28 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047817" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047817">
+            CAWD-263 我的黑絲女友跟上司住同房被強插內射上癮還... (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:3fc60add19ab3a8f9a8a036b1e7e460976604d40&amp;dn=CAWD-263+%E6%88%91%E7%9A%84%E9%BB%91%E7%B5%B2%E5%A5%B3%E5%8F%8B%E8%B7%9F%E4%B8%8A%E5%8F%B8%E4%BD%8F%E5%90%8C%E6%88%BF%E8%A2%AB%E5%BC%B7%E6%8F%92%E5%85%A7%E5%B0%84%E4%B8%8A%E7%99%AE%E9%82%84...+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/3fc60add19ab3a8f9a8a036b1e7e460976604d40.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          936.8 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">47</td>
+        <td class="tr-le home-td hide-smol">246</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:46:11 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047816" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047816">
+            [SSA] Heion Sedai no Idaten-tachi - 09 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:4c73b72414c48e01becc381e18c9b21e3c15aab3&amp;dn=%5BSSA%5D+Heion+Sedai+no+Idaten-tachi+-+09+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/4c73b72414c48e01becc381e18c9b21e3c15aab3.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          99.3 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">0</td>
+        <td class="tr-le home-td hide-smol">5</td>
+        <td class="tr-dl home-td hide-xs">1</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:44:30 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047815" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047815">
+            JUL-683 假裝處男誘插巨乳人妻被我狂幹高潮上癮還... (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:caba961d2ab2262a94a5f3edfd01c2d18bbd0657&amp;dn=JUL-683+%E5%81%87%E8%A3%9D%E8%99%95%E7%94%B7%E8%AA%98%E6%8F%92%E5%B7%A8%E4%B9%B3%E4%BA%BA%E5%A6%BB%E8%A2%AB%E6%88%91%E7%8B%82%E5%B9%B9%E9%AB%98%E6%BD%AE%E4%B8%8A%E7%99%AE%E9%82%84...+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/caba961d2ab2262a94a5f3edfd01c2d18bbd0657.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1.1 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">22</td>
+        <td class="tr-le home-td hide-smol">146</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:32:50 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047814" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047814">
+            TPPN-201. 黑絲美臀丁字褲舔弄吸吮棒硬狂插幹上癮 (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:74dfcd68f359707f64eee23a204a686c8c29cf3e&amp;dn=TPPN-201.+%E9%BB%91%E7%B5%B2%E7%BE%8E%E8%87%80%E4%B8%81%E5%AD%97%E8%A4%B2%E8%88%94%E5%BC%84%E5%90%B8%E5%90%AE%E6%A3%92%E7%A1%AC%E7%8B%82%E6%8F%92%E5%B9%B9%E4%B8%8A%E7%99%AE+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/74dfcd68f359707f64eee23a204a686c8c29cf3e.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          980.9 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">20</td>
+        <td class="tr-le home-td hide-smol">107</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:25:31 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047813" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047813">
+            [SSA] Heion Sedai no Idaten-tachi - 09 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:8a375365ae27e35c2c3a61b3120a89be566e6c5a&amp;dn=%5BSSA%5D+Heion+Sedai+no+Idaten-tachi+-+09+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/8a375365ae27e35c2c3a61b3120a89be566e6c5a.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          166.2 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">0</td>
+        <td class="tr-le home-td hide-smol">11</td>
+        <td class="tr-dl home-td hide-xs">1</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:19:19 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047812" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-11">
+          <a href="/search?c=5_11" title="Live Action - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047812">
+            HDKA-238 人妻來應徵裸體打掃被我狂插內射爽成情婦 (中文字幕)
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:1655e24d1d8687d90f247cac90f3b7c91325cd59&amp;dn=HDKA-238+%E4%BA%BA%E5%A6%BB%E4%BE%86%E6%87%89%E5%BE%B5%E8%A3%B8%E9%AB%94%E6%89%93%E6%8E%83%E8%A2%AB%E6%88%91%E7%8B%82%E6%8F%92%E5%85%A7%E5%B0%84%E7%88%BD%E6%88%90%E6%83%85%E5%A9%A6+%28%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/1655e24d1d8687d90f247cac90f3b7c91325cd59.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          1001.9 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">15</td>
+        <td class="tr-le home-td hide-smol">136</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 6:14:29 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047811" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047811">
+            [SSA] Heion Sedai no Idaten-tachi - 09 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:9660b08ca1f3ef5961abc3c066c5ee127679909c&amp;dn=%5BSSA%5D+Heion+Sedai+no+Idaten-tachi+-+09+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/9660b08ca1f3ef5961abc3c066c5ee127679909c.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          300.9 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">49</td>
+        <td class="tr-le home-td hide-smol">9</td>
+        <td class="tr-dl home-td hide-xs">65</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 5:47:54 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047810" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047810">
+            ガールズ＆パンツァー 劇場版Variante 第01-05巻 [Girls Und Panzer variante vol 01-05]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:afed99ddf679d284b55d23c1bd8c3e7c16de4029&amp;dn=%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%EF%BC%86%E3%83%91%E3%83%B3%E3%83%84%E3%82%A1%E3%83%BC+%E5%8A%87%E5%A0%B4%E7%89%88Variante+%E7%AC%AC01-05%E5%B7%BB+%5BGirls+Und+Panzer+variante+vol+01-05%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/afed99ddf679d284b55d23c1bd8c3e7c16de4029.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          285.8 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">1</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 4:09:26 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047809" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047809">
+            [SSA] Love Live! Superstar!! - 07 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:422c2b1bb1e86f26a6b82c9cd8d1b4252a243d03&amp;dn=%5BSSA%5D+Love+Live%21+Superstar%21%21+-+07+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/422c2b1bb1e86f26a6b82c9cd8d1b4252a243d03.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          117.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">0</td>
+        <td class="tr-le home-td hide-smol">2</td>
+        <td class="tr-dl home-td hide-xs">1</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 4:07:08 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047808" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047808">
+            [SSA] Love Live! Superstar!! - 07 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:2f75f731c66ed2f734c404b5a0dbbd24089f7a4c&amp;dn=%5BSSA%5D+Love+Live%21+Superstar%21%21+-+07+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/2f75f731c66ed2f734c404b5a0dbbd24089f7a4c.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          190.0 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">4</td>
+        <td class="tr-le home-td hide-smol">4</td>
+        <td class="tr-dl home-td hide-xs">7</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 3:41:23 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047807" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047807">
+            [SSA] Love Live! Superstar!! - 07 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:c40dc44344d733b489d87938eb8e25cf395fd071&amp;dn=%5BSSA%5D+Love+Live%21+Superstar%21%21+-+07+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/c40dc44344d733b489d87938eb8e25cf395fd071.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          301.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">9</td>
+        <td class="tr-le home-td hide-smol">8</td>
+        <td class="tr-dl home-td hide-xs">16</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 3:08:41 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047806" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047806">
+            金色のマビノギオン ―アーサー王の妹姫― 第01-02巻 [Kin’iro no Mabinogion Asa o no Imotohime vol 01-02]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:0ac06ee8afba2b9f7c8089703aad7fe4a6c92e92&amp;dn=%E9%87%91%E8%89%B2%E3%81%AE%E3%83%9E%E3%83%93%E3%83%8E%E3%82%AE%E3%82%AA%E3%83%B3+%E2%80%95%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC%E7%8E%8B%E3%81%AE%E5%A6%B9%E5%A7%AB%E2%80%95+%E7%AC%AC01-02%E5%B7%BB+%5BKin%E2%80%99iro+no+Mabinogion+Asa+o+no+Imotohime+vol+01-02%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/0ac06ee8afba2b9f7c8089703aad7fe4a6c92e92.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          189.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 2:58:58 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047805" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-6">
+          <a href="/search?c=3_6" title="Anime - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047805">
+            [DBD-Raws][熊熊勇闯异世界/Kuma Kuma Kuma Bear/くまクマ熊ベアー][01-12TV全集+SP+特典映像][1080P][BDRip][HEVC-10bit][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:7f88277f31998d5175e2ee00f3d1c99310ed10a3&amp;dn=%5BDBD-Raws%5D%5B%E7%86%8A%E7%86%8A%E5%8B%87%E9%97%AF%E5%BC%82%E4%B8%96%E7%95%8C%2FKuma+Kuma+Kuma+Bear%2F%E3%81%8F%E3%81%BE%E3%82%AF%E3%83%9E%E7%86%8A%E3%83%99%E3%82%A2%E3%83%BC%5D%5B01-12TV%E5%85%A8%E9%9B%86%2BSP%2B%E7%89%B9%E5%85%B8%E6%98%A0%E5%83%8F%5D%5B1080P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/7f88277f31998d5175e2ee00f3d1c99310ed10a3.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          6.2 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 2:37:03 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047804" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047804">
+            ウィッチウォッチ 第01-02巻 [Uicchi Uocchi vol 01-02]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:82d4321ae2d856a5be1b36a242446fc7a337ba9d&amp;dn=%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81+%E7%AC%AC01-02%E5%B7%BB+%5BUicchi+Uocchi+vol+01-02%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/82d4321ae2d856a5be1b36a242446fc7a337ba9d.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          115.5 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 1:31:01 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047803" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-6">
+          <a href="/search?c=3_6" title="Anime - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047803">
+            [Moozzi2] Zegapain ADP - Movie + SP
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:54970f579f0d71f81a8a44aaab1c51f803503184&amp;dn=%5BMoozzi2%5D+Zegapain+ADP+-+Movie+%2B+SP&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/54970f579f0d71f81a8a44aaab1c51f803503184.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          7.1 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">5</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/14/2021, 0:19:22 AM UTC+0">Sep 14, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047802" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047802">
+            [SSA] Seirei Gensouki - 11 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:5069b90ef9119696dceb8bb0fce3b4c994445def&amp;dn=%5BSSA%5D+Seirei+Gensouki+-+11+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/5069b90ef9119696dceb8bb0fce3b4c994445def.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          68.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">16</td>
+        <td class="tr-le home-td hide-smol">13</td>
+        <td class="tr-dl home-td hide-xs">24</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 9:15:38 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047801" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047801">
+            [SSA] Seirei Gensouki - 11 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:a07bca57681625c70d9bc375a7cd918e767e76ab&amp;dn=%5BSSA%5D+Seirei+Gensouki+-+11+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/a07bca57681625c70d9bc375a7cd918e767e76ab.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          107.8 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">65</td>
+        <td class="tr-le home-td hide-smol">15</td>
+        <td class="tr-dl home-td hide-xs">142</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 8:53:34 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047800" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047800">
+            [SSA] Seirei Gensouki - 11 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:8ee972b9c4db1c24452bc3e4550ab104e89b1fb4&amp;dn=%5BSSA%5D+Seirei+Gensouki+-+11+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/8ee972b9c4db1c24452bc3e4550ab104e89b1fb4.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          164.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">84</td>
+        <td class="tr-le home-td hide-smol">51</td>
+        <td class="tr-dl home-td hide-xs">137</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 8:25:43 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047799" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047799">
+            [SSA] Deatte 5-byou de Battle - 10 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:10276ab2709638181581b97f1439286e1df54e1e&amp;dn=%5BSSA%5D+Deatte+5-byou+de+Battle+-+10+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/10276ab2709638181581b97f1439286e1df54e1e.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          112.1 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">27</td>
+        <td class="tr-le home-td hide-smol">3</td>
+        <td class="tr-dl home-td hide-xs">120</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 8:22:51 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047798" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047798">
+            [SSA] Deatte 5-byou de Battle - 10 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:27ed88d91a94c5655b8cec94cda3200bcf195c6b&amp;dn=%5BSSA%5D+Deatte+5-byou+de+Battle+-+10+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/27ed88d91a94c5655b8cec94cda3200bcf195c6b.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          180.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">44</td>
+        <td class="tr-le home-td hide-smol">14</td>
+        <td class="tr-dl home-td hide-xs">66</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 7:54:43 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047797" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047797">
+            [SSA] Deatte 5-byou de Battle - 10 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:a0c4e248ece721ad4dde029064f7a23fb492aa88&amp;dn=%5BSSA%5D+Deatte+5-byou+de+Battle+-+10+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/a0c4e248ece721ad4dde029064f7a23fb492aa88.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          329.7 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">30</td>
+        <td class="tr-le home-td hide-smol">16</td>
+        <td class="tr-dl home-td hide-xs">54</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 7:20:05 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047795" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047795">
+            [SSA] Uramichi Oniisan - 11 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:4506fd485c4ccd25447b5cbc5dd5f6f0614a9bed&amp;dn=%5BSSA%5D+Uramichi+Oniisan+-+11+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/4506fd485c4ccd25447b5cbc5dd5f6f0614a9bed.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          63.7 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">9</td>
+        <td class="tr-le home-td hide-smol">5</td>
+        <td class="tr-dl home-td hide-xs">11</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 6:56:05 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047794" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047794">
+            [SSA] Uramichi Oniisan - 11 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:2f77114c57e96806d66ccb11ea0b7b93aef00253&amp;dn=%5BSSA%5D+Uramichi+Oniisan+-+11+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/2f77114c57e96806d66ccb11ea0b7b93aef00253.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          98.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">9</td>
+        <td class="tr-le home-td hide-smol">12</td>
+        <td class="tr-dl home-td hide-xs">13</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 6:32:49 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047793" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047793">
+            [SSA] Genjitsu Shugi Yuusha no Oukoku Saikenki - 11 [480p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:7019ef35b26e0e91d1ea802fcb13d29469f35157&amp;dn=%5BSSA%5D+Genjitsu+Shugi+Yuusha+no+Oukoku+Saikenki+-+11+%5B480p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/7019ef35b26e0e91d1ea802fcb13d29469f35157.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          76.4 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">1</td>
+        <td class="tr-dl home-td hide-xs">2</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 6:22:27 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047792" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047792">
+            [SSA] Uramichi Oniisan - 11 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:a821d749eb470eee7f87db89b00b6c79952e4086&amp;dn=%5BSSA%5D+Uramichi+Oniisan+-+11+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/a821d749eb470eee7f87db89b00b6c79952e4086.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          159.0 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">0</td>
+        <td class="tr-le home-td hide-smol">6</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 6:04:44 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047791" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047791">
+            [SSA] Genjitsu Shugi Yuusha no Oukoku Saikenki - 11 [720p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:916ddb5c019be1f342724df2c51329fd6e8be50b&amp;dn=%5BSSA%5D+Genjitsu+Shugi+Yuusha+no+Oukoku+Saikenki+-+11+%5B720p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/916ddb5c019be1f342724df2c51329fd6e8be50b.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          125.5 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">6</td>
+        <td class="tr-le home-td hide-smol">23</td>
+        <td class="tr-dl home-td hide-xs">6</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 5:58:52 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047790" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047790">
+            [SSA] Genjitsu Shugi Yuusha no Oukoku Saikenki - 11 [1080p].mkv
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:0d3eb0c307e99dbf4293cc80869bc799b12b8286&amp;dn=%5BSSA%5D+Genjitsu+Shugi+Yuusha+no+Oukoku+Saikenki+-+11+%5B1080p%5D.mkv&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/0d3eb0c307e99dbf4293cc80869bc799b12b8286.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          208.9 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">44</td>
+        <td class="tr-le home-td hide-smol">28</td>
+        <td class="tr-dl home-td hide-xs">60</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 5:28:26 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047788" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047788">
+            9番目のムサシ ゴースト アンド グレイ 第01-05巻 [Kyubanme no Musashi Gosuto Ando Gurei vol 01-05]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:49a3e4396daec334172a43ba1dc71edbd475dea2&amp;dn=9%E7%95%AA%E7%9B%AE%E3%81%AE%E3%83%A0%E3%82%B5%E3%82%B7+%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88+%E3%82%A2%E3%83%B3%E3%83%89+%E3%82%B0%E3%83%AC%E3%82%A4+%E7%AC%AC01-05%E5%B7%BB+%5BKyubanme+no+Musashi+Gosuto+Ando+Gurei+vol+01-05%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/49a3e4396daec334172a43ba1dc71edbd475dea2.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          392.8 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">1</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 4:01:38 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047787" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-6">
+          <a href="/search?c=3_6" title="Anime - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047787">
+            [DBD-Raws][无能力者娜娜/无能的奈奈/Munou no Nana][01-13TV全集+SP+特典映像][1080P][BDRip][HEVC-10bit][FLAC][MKV]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:dc5b8ee95b94ba4bc4d01a2461735225ad66f83e&amp;dn=%5BDBD-Raws%5D%5B%E6%97%A0%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C%2F%E6%97%A0%E8%83%BD%E7%9A%84%E5%A5%88%E5%A5%88%2FMunou+no+Nana%5D%5B01-13TV%E5%85%A8%E9%9B%86%2BSP%2B%E7%89%B9%E5%85%B8%E6%98%A0%E5%83%8F%5D%5B1080P%5D%5BBDRip%5D%5BHEVC-10bit%5D%5BFLAC%5D%5BMKV%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/dc5b8ee95b94ba4bc4d01a2461735225ad66f83e.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          5.7 GiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 3:51:19 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047786" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047786">
+            雨下雫は汗がすき 第01-03巻 [Ameshita Shizuku wa ase ga Suki vol 01-03]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:5def06bdc9a7c6b62aed107b28656ed9d67398ad&amp;dn=%E9%9B%A8%E4%B8%8B%E9%9B%AB%E3%81%AF%E6%B1%97%E3%81%8C%E3%81%99%E3%81%8D+%E7%AC%AC01-03%E5%B7%BB+%5BAmeshita+Shizuku+wa+ase+ga+Suki+vol+01-03%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/5def06bdc9a7c6b62aed107b28656ed9d67398ad.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          264.9 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">5</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 2:51:53 PM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047785" class="torrent-info trusted">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047785">
+            (画集) [白もち桜] SAKURA Gallery 白もち桜画集II
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:43b6b1a2d359b78fd1049b54c5b05b04e65c0156&amp;dn=%28%E7%94%BB%E9%9B%86%29+%5B%E7%99%BD%E3%82%82%E3%81%A1%E6%A1%9C%5D+SAKURA+Gallery+%E7%99%BD%E3%82%82%E3%81%A1%E6%A1%9C%E7%94%BB%E9%9B%86II&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/43b6b1a2d359b78fd1049b54c5b05b04e65c0156.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          204.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">2</td>
+        <td class="tr-le home-td hide-smol">76</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 11:48:45 AM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047784" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-8">
+          <a href="/search?c=4_8" title="Literature - Raw" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047784">
+            からかい上手の（元）高木さん 第01-12巻 [Karakai Jouzu no Moto Takagisan vol 01-12]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:1e559a6f9e6f0a6b88b47063fb89c692796c5803&amp;dn=%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%EF%BC%88%E5%85%83%EF%BC%89%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93+%E7%AC%AC01-12%E5%B7%BB+%5BKarakai+Jouzu+no+Moto+Takagisan+vol+01-12%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/1e559a6f9e6f0a6b88b47063fb89c692796c5803.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          367.1 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">1</td>
+        <td class="tr-le home-td hide-smol">0</td>
+        <td class="tr-dl home-td hide-xs">0</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 11:31:52 AM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    <tr id="torrent_1047782" class="torrent-info ">
+      
+      <td class="tr-cat home-td">
+        <div class="nyaa-cat nyaa-cat-5">
+          <a href="/search?c=3_5" title="Anime - English-translated" class="category">
+          </a>
+          
+        </div>
+      </td>
+        <td class="tr-name home-td" colspan="2">
+          <a href="/view/1047782">
+            [OldCastle] Corrector Yui 2 - 12 [A5B7100C]
+          </a>
+        </td>
+        
+        <td class="tr-links home-td">
+          <a href="magnet:?xt=urn:btih:b2add6894b54055f96930529a4d6377bbb85707f&amp;dn=%5BOldCastle%5D+Corrector+Yui+2+-+12+%5BA5B7100C%5D&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce" title="Magnet Link">
+            <div class="icon-magnet"></div>
+          </a>
+          <a href="http://anicache.com/torrent/b2add6894b54055f96930529a4d6377bbb85707f.torrent" title="Torrent file" >
+            <div class="icon-floppy"></div>
+          </a>
+        </td>
+        <td class="tr-size home-td hide-xs">
+          507.6 MiB
+        </td>
+        
+        <td class="tr-se home-td hide-smol">0</td>
+        <td class="tr-le home-td hide-smol">7</td>
+        <td class="tr-dl home-td hide-xs">1</td>
+        
+        <td class="tr-date home-td date-short hide-xs" title="9/13/2021, 11:00:38 AM UTC+0">Sep 13, 2021</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+
+    </div>
+    
+    
+    <div id="mascot" class="hide-xs" onclick="playVoice();" ></div>
+    
+    
+    
+    <audio id="nyanpassu" hidden preload="none">
+      <source src="https://z.zz.ht/A0bXR.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+    
+    
+    
+    <div class="container bottom">
+        <div class="pagination">
+          <a class="page-prev" style="display:none;" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a><a aria-label="Page 1" href="/search/1?"><span class="active">1</span></a><a aria-label="Page 2" href="/search/2?"><span>2</span></a><a aria-label="Page 3" href="/search/3?"><span>3</span></a><a aria-label="Page 4" href="/search/4?"><span>4</span></a><a aria-label="Page 5" href="/search/5?"><span>5</span></a><a aria-label="Page 6" href="/search/6?"><span>6</span></a><a aria-label="Page 7" href="/search/7?"><span>7</span></a><a aria-label="Page 8" href="/search/8?"><span>8</span></a><a aria-label="Page 9" href="/search/9?"><span>9</span></a><a aria-label="Page 10" href="/search/10?"><span>10</span></a><a aria-label="Page 11" href="/search/11?"><span>11</span></a><a aria-label="Page 12" href="/search/12?"><span>12</span></a><a aria-label="Page 13" href="/search/13?"><span>13</span></a><a aria-label="Page 14" href="/search/14?"><span>14</span></a><a aria-label="Page 15" href="/search/15?"><span>15</span></a><a class="page-next" href="/search/17712?" aria-label="Next"><span aria-hidden="true">&raquo;</span></a><p>1-50/885568</p>
+        </div>
+    </div>
+    
+    <div id="cookie-warning"><span id="cookie-warning-close" class="close">×</span>By using this website, you agree to the usage of cookies for purposes such as customizing content.<br/>This message will be hidden at the next page load.</div>
+    <div class="centered">
+
+<!--
+<a href="http://bit.ly/sukasuka-anime"><img alt="NyaaPantsu Ads" class="wb-w" src="https://a.doko.moe/kvchvg.jpg"></a>
+-->
+<iframe width="728" height="90" scrolling="no" frameborder="0" src="https://a.adtng.com/get/10011773?time=1600111520608" allowtransparency="true" marginheight="0" marginwidth="0" name="spot_id_10011773"></iframe>
+
+ </div>
+    <footer id="footer">
+      <div class="container footer center">
+        <div class="footer-opt">
+          <p><a href="/settings">Change Appearance/Settings</a><a id="dark-toggle" href="/dark/"> - Toggle Dark Mode</a></p>
+        </div>
+        <span><i>Powered by <a href="#">Nyaa Pantsu</a> v1.1.0 - commit <a id="commit" href="https://github.com/NyaaPantsu/nyaa/commit/"></a></i></span>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript">
+          var commitVersion = "",
+              websiteVersion = "1.1.0",
+              UserID = 0,
+              domain = ".pantsu.cat, .nyaa.pt, .nyoo.moe, .nyaa.net, nyaa.net",
+              darkTheme = "tomorrow",
+              hmFmt = "{0} hours {1} minutes ago",
+              dhFmt = "{0} days {1} hours ago";
+        </script>
+  <script type="text/javascript" src="/js/query.js?v=1.1.0"></script>
+  <script type="text/javascript" charset="utf-8" src="/js/main.js?v=1.1.0" async></script>
+  
+<script type="text/javascript" src="/js/template.js"></script>
+<script type="text/javascript" src="/js/modal.js"></script>
+<script type="text/javascript" src="/js/torrents.js"></script>
+<script type="text/javascript" src="/js/translation.js"></script>
+
+<!-- JS Template for torrents ajax -->
+<script type="text/javascript">
+// 
+T.Add("3_12", "Anime - Anime Music Video")
+// 
+T.Add("3_5", "Anime - English-translated")
+// 
+T.Add("3_13", "Anime - Non-English-translated")
+// 
+T.Add("3_6", "Anime - Raw")
+// 
+T.Add("2_3", "Audio - Lossless")
+// 
+T.Add("2_4", "Audio - Lossy")
+// 
+T.Add("4_7", "Literature - English-translated")
+// 
+T.Add("4_14", "Literature - Non-English-translated")
+// 
+T.Add("4_8", "Literature - Raw")
+// 
+T.Add("5_9", "Live Action - English-translated")
+// 
+T.Add("5_10", "Live Action - Idol/Promotional Video")
+// 
+T.Add("5_18", "Live Action - Non-English-translated")
+// 
+T.Add("5_11", "Live Action - Raw")
+// 
+T.Add("6_15", "Pictures - Graphics")
+// 
+T.Add("6_16", "Pictures - Photos")
+// 
+T.Add("1_1", "Software - Applications")
+// 
+T.Add("1_2", "Software - Games")
+// 
+// 
+T.Add("ca", "Catalan")
+// 
+// 
+T.Add("de", "German")
+// 
+// 
+T.Add("en", "English")
+// 
+// 
+T.Add("es", "Spanish, Mexican Spanish")
+// 
+T.Add("es, es-mx", "Spanish, Mexican Spanish")
+// 
+// 
+T.Add("fr", "French")
+// 
+// 
+T.Add("hu", "Hungarian")
+// 
+// 
+T.Add("id", "Indonesian")
+// 
+// 
+T.Add("is", "Icelandic")
+// 
+// 
+T.Add("it", "Italian")
+// 
+// 
+T.Add("ja", "Japanese")
+// 
+// 
+T.Add("ko", "Korean")
+// 
+// 
+T.Add("nb", "Norwegian Bokmål")
+// 
+// 
+T.Add("nl", "Dutch")
+// 
+// 
+T.Add("pt", "Portuguese")
+// 
+// 
+T.Add("ro", "Romanian")
+// 
+// 
+T.Add("ru", "Russian")
+// 
+// 
+T.Add("sv", "Swedish")
+// 
+// 
+T.Add("th", "Thai")
+// 
+// 
+T.Add("zh", "Chinese")
+// 
+// 
+T.Add("zh-Hant", "Traditional Chinese")
+// 
+// 
+Templates.Add("torrents.item", function(torrent) {
+    var tr_class = "torrent-info"
+    if (torrent.status == 2) {
+            tr_class += " remake"
+    } else if (torrent.status == 3) {
+            tr_class += " trusted"
+    } else if (torrent.status == 4) {
+            tr_class += " aplus"
+    }
+    // 
+    var catClass = "nyaa-cat"
+    // 
+    catClass += " nyaa-cat-"+ torrent.sub_category
+    // 
+    var languages = ""
+    var colspan = (torrent.comments.length  == 0 ? ` colspan="2"` : "" )
+    var commentTd = ((torrent.comments.length > 0) ? `<td class="tr-cs home-td" title="`+torrent.comments.length + ` Comments` +`"><a href="/view/` + torrent.id + `#comments">` + torrent.comments.length + `</a></td>` : "")
+	
+	var stats = ["-", "-", "-"]
+	if(torrent.seeders != 0 || torrent.leechers != 0 || torrent.completed != 0)
+		stats = [torrent.seeders, torrent.leechers, torrent.completed]
+	
+    
+    if (torrent.languages[0] != "") {
+        var flagClass = (torrent.languages.length == 1) ? Templates.FlagCode(torrent.languages[0]) : "multiple"
+        var langs = torrent.languages.map(function (el, i) { return T.r(el)}).join(",") 
+        languages = `<a href="/search?c=` + torrent.category + `_` + torrent.sub_category + `&lang=` + torrent.languages.join(",") + `"><img src="img/blank.gif" class="flag flag-` + flagClass + `" title="` + langs + `" alt="` + langs + `"></a>`
+    }
+
+    return `<tr id="torrent_` + torrent.id + `" class="` + tr_class + `">
+        
+    <td class="tr-cat home-td">
+        <div class="` + catClass +`">
+            <a href="/search?c=` + torrent.category + `_` + torrent.sub_category + `" class="category">
+            </a> ` + languages + `
+        </div></td>
+        <td class="tr-name home-td"` +  colspan + `><a href="/view/` + torrent.id + `">` + Templates.EncodeEntities(torrent.name) + `</a></td>
+        `+ commentTd +`
+        <td class="tr-links home-td">
+            <a href="` + torrent.magnet + `" title="Magnet Link">
+                <div class="icon-magnet"></div>
+            </a>`+ ` <a href="` + torrent.torrent + `" title="Torrent file"><div class="icon-floppy"></div></a>` +`
+        </td>
+        <td class="tr-size home-td hide-xs">` + humanFileSize(torrent.filesize) + `</td>
+        <td class="tr-se home-td hide-smol">` + stats[0] + `</td>
+        <td class="tr-le home-td hide-smol">` + stats[1] + `</td>
+        <td class="tr-dl home-td hide-xs">` + stats[2] + `</td>
+        <td class="tr-date home-td date-short hide-xs" title="` + torrent.date + `">` + torrent.date + `</td>
+    </tr>`;
+});
+</script>
+
+<script type="text/javascript">
+Torrents.LastID = 1047850;
+if (Torrents.LastID > 0) Torrents.CanRefresh = true;
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"68ef5759aa3817e5","version":"2021.8.1","r":1,"token":"e9603c29160c4218991ece76b62b0436","si":10}'></script>
+</body>
+</html>
